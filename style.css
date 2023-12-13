@@ -3,3 +3,38 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+header a {
+  padding: 0 10px 0;
+  background-color: gainsboro;
+}
+
+figcaption {
+  font-size: 18px;
+  text-align: center;
+}
+
+#featured-property > p {
+  margin: auto;
+  width: 800px;
+  text-align: center;
+  padding: 10px;
+}
+
+#details {
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-bottom: 10px;
+}
